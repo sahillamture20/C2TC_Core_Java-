@@ -5,7 +5,7 @@ public class User_Defined_Exception {
 		// TODO Auto-generated method stub
 
 		try {
-			throw new MyException(5);
+			throw new MyException1(5);
 		}
 		catch(Exception e) {
 			System.out.println(e);
@@ -13,9 +13,9 @@ public class User_Defined_Exception {
 	}
 
 }
-class MyException extends Exception{
+class MyException1 extends Exception{
 	int a;
-	MyException(int b){
+	MyException1(int b){
 		a=b;
 	}
 	public String toString() {
